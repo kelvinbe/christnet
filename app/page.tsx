@@ -53,13 +53,13 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-black">Global Mission</h2>
         <div className="flex justify-center">
           <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center text-white">
-            <video
-              src="/vida.mp4"
-              className="w-full h-full object-cover rounded"
-              autoPlay
-              loop
-              muted
-              />
+           <video
+  src="/vida.mp4"
+  className="w-full h-full object-cover rounded"
+  controls
+  autoPlay
+  loop
+/>
           </div>
         </div>
       </section>
