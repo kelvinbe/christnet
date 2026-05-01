@@ -10,8 +10,7 @@ export default function Navbar() {
   console.log('open', open);
 
   return (
-    <nav className="flex items-center justify-between p-4 shadow-md relative bg-white">
-      {/* Logo */}
+<nav className="flex items-center justify-between p-4 shadow-md bg-white sticky top-0 z-50">      {/* Logo */}
       <div className="flex items-center">
         <Image
           src="/logo.jpg"
