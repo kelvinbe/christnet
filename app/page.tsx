@@ -49,20 +49,7 @@ export default function Home() {
       </section>
 
       {/* VIDEO SECTION */}
-      <section className="py-20 text-center bg-white">
-        <h2 className="text-3xl font-bold mb-6 text-black">Global Mission</h2>
-        <div className="flex justify-center">
-          <div className="w-[300px] h-[300px] rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center text-white">
-           <video
-  src="/vida.mp4"
-  className="w-full h-full object-cover rounded"
-  controls
-  autoPlay
-  loop
-/>
-          </div>
-        </div>
-      </section>
+
 
 
       {/* SERVICES GRID */}
@@ -86,7 +73,7 @@ export default function Home() {
 
           <div className="grid grid-cols-2 gap-4">
             <img src="https://unsplash.com/photos/earth-rising-over-the-moons-horizon-Y38PSLjc-Fg" className="rounded-xl" />
-            <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d" className="rounded-xl" />
+            {/* <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d" className="rounded-xl" /> */}
             <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" className="rounded-xl" />
             <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" className="rounded-xl" />
           </div>
