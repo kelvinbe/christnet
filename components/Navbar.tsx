@@ -23,7 +23,7 @@ export default function Navbar() {
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6 font-medium">
         <Link href="/">Home</Link>
-        <Link href="/about">About Us</Link>
+        <Link href="/">About Us</Link>
         <Link href="/">Support</Link>
         <Link href="/">Resources</Link>
         <Link href="/">Events</Link>

@@ -1,6 +1,8 @@
 // FULL LANDING PAGE (White theme with black text)
 // Next.js 14 + Tailwind
 
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
     <main className="bg-white text-black">
@@ -106,9 +108,9 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-10 text-center text-gray-600 bg-white">
-        © {new Date().getFullYear()} CHRISTNET International
-      </footer>
+     <>
+     <Footer />
+     </>
 
     </main>
   );
