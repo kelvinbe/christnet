@@ -45,7 +45,7 @@ export default function Navbar() {
       {open && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col space-y-4 p-4 md:hidden z-10">
           <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-          <Link href="/about" onClick={() => setOpen(false)}>About Us</Link>
+          <Link href="/" onClick={() => setOpen(false)}>About Us</Link>
           <Link href="/" onClick={() => setOpen(false)}>Support</Link>
           <Link href="/" onClick={() => setOpen(false)}>Resources</Link>
           <Link href="/" onClick={() => setOpen(false)}>Events</Link>
